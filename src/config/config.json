@@ -1,0 +1,28 @@
+{
+    "inverters": [
+      {
+        "name": "INV1",
+        "port": "COM3",
+        "slaveId": 4
+      },
+      {
+        "name": "INV2",
+        "port": "COM4",
+        "slaveId": 4
+      },
+      {
+        "name": "INV3",
+        "port": "COM5",
+        "slaveId": 4
+      }
+    ],
+    "settings": {
+      "baudRate": 19200,
+      "parity": "none",
+      "dataBits": 8,
+      "stopBits": 1,
+      "pollDelayMs": 200,
+      "pauseBetweenInvertersMs": 1000
+    }
+  }
+  
